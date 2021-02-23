@@ -102,3 +102,96 @@ h1{
     margin-top: 0vh;
     
   }
+
+
+  .footer-wrapper{
+    min-height: 45px;
+    margin-left: 0;
+
+  }
+
+
+  .footer-logo{
+    padding-bottom: 10px;
+  }
+
+  .footer-logo img{
+    height: 40px;
+    width: 40px;
+    filter: grayscale(100%);
+  }
+
+  .footer-logo img:hover{
+    filter: grayscale(0%);
+    
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+
+    
+    .main-container{
+        /* background-color: aqua; */
+        width: 80vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background-color:#daded4;
+        border-radius: 0.7vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        justify-content: center;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    
+    .input-section{
+        height: 30vh;
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+    .input-textbox,
+    .output-textbox{
+        margin-top: 4vh;
+        height: 20vh;
+        width: 60vw;
+        border-radius: 0.52vw;
+    }
+    
+    .action-items{
+        /* margin:2vh; */
+        margin-left: 6vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 2.5vh;
+        column-gap: 3vw;
+    }
+    
+    .output-section{
+        height: 30vh;
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+    .button{
+            width: 20vw;
+            height: 8vh;
+            border-radius: 0.52vw;
+            font-size: 1.5vh;
+            cursor: pointer;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        padding: 0.4vh;
+        margin-top: 0vh;
+        
+      }
+
+  }  
+
